@@ -5,7 +5,7 @@ export const Button = (props: { children: React.ReactNode }) => {
 const Parent = () => {
   return (
     <>
-      @ts-expect-error
+      {/* @ts-expect-error */}
       <Button></Button>
       <Button>Hello world!</Button>
     </>
