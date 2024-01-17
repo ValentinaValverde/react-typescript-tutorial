@@ -14,3 +14,4 @@ export const Component = () => {
 
 // used to be useMemo<() => string[]>
 // took out the type argument (line 5)
+// or could do useMemo((): string[] => { })
